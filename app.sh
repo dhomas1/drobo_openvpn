@@ -1,6 +1,6 @@
 ### PCRE ###
 _build_pcre() {
-local VERSION="8.37"
+local VERSION="8.39"
 local FOLDER="pcre-${VERSION}"
 local FILE="${FOLDER}.tar.bz2"
 local URL="ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/${FILE}"
