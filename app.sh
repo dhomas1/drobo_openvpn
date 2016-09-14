@@ -1,6 +1,6 @@
 ### PCRE ###
 _build_pcre() {
-local VERSION="8.37"
+local VERSION="8.39"
 local FOLDER="pcre-${VERSION}"
 local FILE="${FOLDER}.tar.bz2"
 local URL="ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/${FILE}"
@@ -80,7 +80,7 @@ popd
 
 ### OPENSSL ###
 _build_openssl() {
-local VERSION="1.0.2d"
+local VERSION="1.0.2h"
 local FOLDER="openssl-${VERSION}"
 local FILE="${FOLDER}.tar.gz"
 local URL="http://mirror.switch.ch/ftp/mirror/openssl/source/${FILE}"
